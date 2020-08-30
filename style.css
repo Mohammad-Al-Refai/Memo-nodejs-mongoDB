@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  transition: 0.5s;
+  border: 0px;
+  outline-color: rgb(104, 236, 133);
+}
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+header {
+  top: 0vh;
+  position: fixed;
+  background-color: rgb(55, 202, 129);
+  width: 100%;
+  height: 40vh;
+  /* border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px; */
+}
+.cards {
+  float: left;
+  width: 90%;
+  position: relative;
+  bottom: 0vh;
+
+  left: 5%;
+  padding: 20px;
+  padding-left: 6%;
+}
+.card {
+  cursor: pointer;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+ 
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px 0px rgb(128, 128, 128);
+  float: left;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card:hover {
+  box-shadow: 1px 1px 10px 0px rgb(77, 74, 74);
+  background-color: rgb(81, 238, 128);
+}
+.card h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10vh;
+}
+.card h4 {
+  width: 100%;
+  height: 5vh;
+  text-align: left;
+  margin-top: 10vh;
+  color: royalblue;
+  background-color: rgb(47, 48, 49);
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.menu_view{
+  background-color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 80vh;
+  position: fixed;
+  margin: 10%;
+  bottom: -2000px;
+  box-shadow: 1px 1px 10px 0px rgb(77, 74, 74);
+}
+
+.input{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    border-bottom:2px solid rgb(83, 219, 71) ;
+}
+.data{
+    margin: 10px;
+    width: 78vw;
+    height: 40vh;
+    border:1px solid rgb(83, 219, 71) ;
+    border-radius: 10px;
+}
+.bts{
+  background-color: royalblue;
+  margin-top: 22vh;
+  
+}
+.upd_btn,.clo_btn,.del_btn{
+  float: right;
+  height: 30px;
+  margin: 10px;
+  width: 100px;
+  
+}
+.upd_btn{
+  cursor: pointer;
+  background-color: rgb(62, 156, 103);
+  color: white;
+}
+
+.clo_btn{
+  cursor: pointer;
+  background-color: tomato;
+  color: white;
+}
+
+.del_btn{
+  cursor: pointer;
+  background-color: rgb(241, 36, 0);
+  color: white;
+}
+.toast{
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 50px;
+  box-shadow: 1px 1px 10px 0px rgb(77, 74, 74);
+  border-radius: 8px;
+  padding: 15px;
+  top: 90vh;
+  left: -2000px;
+  margin-left:10px;
+  background-color: rgb(41, 175, 108);
+  color: white;
+  font-size: 20px;
+
+}
+.add{
+  cursor: pointer;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 80vh;
+  left: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius:100px ;
+  box-shadow: 1px 1px 4px 1px rgb(126, 126, 126);
+  padding: 10px;
+}
+.add img{
+  width: 100%;
+ 
+}
+.add:hover{
+  box-shadow: 1px 1px 10px 1px rgb(126, 126, 126);
+}
+.close{
+  cursor: pointer;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 80vh;
+  left: -2000px;
+  background-color: rgb(255, 255, 255);
+  border-radius:100px ;
+  box-shadow: 1px 1px 4px 1px rgb(126, 126, 126);
+  padding: 15px;
+}
+.close img{
+  width: 100%;
+ 
+}
+.close:hover{
+  box-shadow: 1px 1px 10px 1px rgb(126, 126, 126);
+}
+@media (max-width: 500px) {
+  .cards {
+    float: left;
+    width: 90%;
+    position: relative;
+    bottom: 0vh;
+
+    left: 5%;
+    padding: 20px;
+    padding-left: 11%;
+  }
+}
